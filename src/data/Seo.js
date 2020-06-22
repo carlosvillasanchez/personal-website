@@ -3,29 +3,22 @@ import favicon from '../assets/images/rash-favicon.png'
 export const aboutWebsite = {
     "@context": "http://schema.org",
     "@type": "WebSite",
-    "url": "http://rashmiap.me",
-    "name": "Rashmi AP | Front-end Engineer, Zoojoobe",
+    "url": "https://carlosvilla.herokuapp.com/",
+    "name": "Carlos Villa | Application security engineer",
     "author": {
         "@type": "Person",
-        "name": "Rashmi AP"
+        "name": "Carlos Villa"
     }
 }
 export const siteMeta = {
-    title: 'Rashmi AP | Frontend Developer',
+    title: 'Carlos Villa | Application security engineer',
     favicon: favicon,
-    author: "Rashmi AP",
-    description: "Hello there, welcome to my portfolio. I am a front end developer, visual artist and an animal lover based out of Bangalore.",
-    copyright: "Rashmi AP, Copyright (c) 2018",
+    author: "Carlos Villa",
+    description: "",
+    copyright: "Carlos Villa, Copyright (c) 2018",
     keywords: [
-        "Rashmi AP",
-        "ZoojooBE",
-        "frontend engineer",
-        "frontend developer",
-        "fullstack engineer",
-        "web engineer",
-        "bangalore",
-        "software engineer",
-        "engineer",
-        "ui engineer"
+        "Carlos Villa",
+        "",
+        "Application security engineer",
     ],
 }
