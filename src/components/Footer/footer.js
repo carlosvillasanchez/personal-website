@@ -6,14 +6,14 @@ const Footer = ({ footerClass }) => (
 		<p>
 			View site source on{" "}
 			<a
-				href="https://github.com/rashmiap/personal-website-react"
+				href="https://github.com/carlos villa/personal-website-react"
 				target="_blank"
 			>
 				Github
 			</a>{" "}
 			| Website design: {" "}
-			<a href="https://github.com/rashmiap/personal-website-react" target="_blank">
-				Rashmi AP
+			<a href="https://github.com/carlos villa/personal-website-react" target="_blank">
+				Carlos AP
 			</a>
 		</p>
 	</div>
