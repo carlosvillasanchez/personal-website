@@ -4,19 +4,19 @@ export default [
     path: '/',
   },
   {
-    label: 'Experience',
-    path: '/experience',
+    label: 'Resume',
+    path: '/resume',
   },
   {
     label: 'Projects',
     path: '/projects',
   },
   {
-    label: 'Contact',
-    path: '/contact',
+    label: 'Blog',
+    path: '/blog',
   },
   {
-    label: 'Recommendation',
-    path: '/recommendation',
+    label: 'Contact',
+    path: '/contact',
   }
 ]

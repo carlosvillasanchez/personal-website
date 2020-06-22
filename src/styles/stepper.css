@@ -21,14 +21,14 @@
   min-height: 32px;
   display: flex;
 }
-.experience-stepper .step:last-of-type{
+.resume-stepper .step:last-of-type{
   padding: 0 5px 0 0;
 }
 @media (max-width: 700px) {
   .step {
     padding: 0;
   }
-  .experience-stepper .step:last-of-type{
+  .resume-stepper .step:last-of-type{
     padding: 0;
   }
 }

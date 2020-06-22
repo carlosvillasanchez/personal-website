@@ -43,7 +43,7 @@ const BoxIcon = styled.div`
   border-bottom-right-radius: 0;
   background-color: rgba(127, 161, 232, 0.3);
   img{
-    width: 25%;
+    width: 22%;
     margin-right: 5%;
     margin-bottom: 0;
   }

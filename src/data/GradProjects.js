@@ -1,35 +1,25 @@
-import antik from '../assets/images/projects/antik.svg'
-import quiz from '../assets/images/projects/quiz.svg'
+import diets from '../assets/images/projects/diets.svg'
+import cars from '../assets/images/projects/cars.svg'
 
 export default [
     {
         id: 1,
-        title: "ANTIK Web Framework",
-        icon: antik,
-        description: "Built a web application for a packet injection toolkit named ANTIK. The tool’s drawback was its non-scalability. The project was to make it deployable on a global platform and to enable users to test the HTTP Apache server from anywhere on the network. The web app enables users to log in securely and trigger the ANTIK tool from a node on the network. Used Django queue to enqueue the HTTP request for processing, which when serviced, triggers the tool with the necessary inputs. The output from the ANTIK tool is fed into a Redis database, where the client can subscribe for that data using Centrifuge. The report when available, is published to the client page. Programmed the front-end using Bootstrap and used Centrifuge, a real-time messaging server, to allow the user to subscribe to the results. Deployed Redis to store the results from the tool and made use of Django-RQ to maintain a queue of workers. Developed by a 3 member team.",
-        githubPath: null,
-        demoPath: null,
-        year: "2014 - 2015",
-        techUsed: "Python, Django, CSS Bootstrap"
+        title: "Preferences and consequences of diets",
+        icon: diets,
+        description: "Analysis of the indirect and hidden ways a diet can affect the way we eat. We have used for this more than half a million recipes, basing our analysis on the correlation between ingredients and the healthiness of them. We also present a search tool for finding information about specific ingredients and their relation to others. This project is specifically useful for allergies or intolerances. In the second year of master's at EPFL university.",
+        githubPath: "https://github.com/carlosvillasanchez/Salmon-tortilla-al-pesto",
+        demoPath: "https://tormey97.github.io/food-datastory/",
+        year: "2019",
+        techUsed: "Python, Jupyter Notebook, Pandas, Machine Learning, React"
     },
     {
       id: 2,
-      title: "Bolly-Quiz : Bollywood quizzing app",
-      description: "A ‘C’ based static application developed using utility tools like RPM, MELD and MAKE. Developed by a 3 member team. This Quiz Application provides 4 categories - Actors, Movies, Musicians and Miscellaneous to pick from and also tracks the highest score and updates it when necessary.",
-      icon: quiz,
-      githubPath: null,
+      title: "Simulation of a Decentralized Network of Autonomous Cars",
+      description: "We have developed a simulation of autonomous cars that move around a map communicating with each other to avoid crashes and announce events. Each car is a real node of a decentralized system that uses a 3 layer protocol for their communication in order to avoid overflooding the whole network. The project is developed in Go with a user interface in ReactJS where the nodes can launch and managed.",
+      icon: cars,
+      githubPath: "https://github.com/carlosvillasanchez/decentralized-car-network",
       demoPath: null,
-      year: "2012",
-      techUsed: "C"
+      year: "2019/2020",
+      techUsed: "Go, React"
     },
-    {
-      id: 3,
-      title: "Graphical Representation of Sorting Algorithms",
-      description: "Representation of simple sorting algorithms in a graphical way in order to understand the implementation of them with the help of java applets.",
-      icon: quiz,
-      githubPath: null,
-      demoPath: null,
-      year: "2012",
-      techUsed: "Java applets"
-    }
 ]

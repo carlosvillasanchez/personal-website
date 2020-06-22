@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const UserWrapper = styled.div`
-  margin: 10% auto;
+  margin: 5% auto;
 `;
 export const UserTitle = styled.h1`
   font-size: 4.2em;
@@ -25,7 +25,7 @@ export const UserDescription = styled.div`
     font-weight: 300;
     font-size: 26px;
     line-height: 1.3;
-    margin-bottom: 15%;
+    margin-bottom: 5%;
   }
   img{
     max-width: 50%;
@@ -62,6 +62,7 @@ export const DownloadButton = styled.a`
 export const UserTopic = styled.div`
   display: flex;
   justify-content: center;
+  margin-top: 200px;
   @media (max-width: 700px) {
     flex-direction: column;
   }

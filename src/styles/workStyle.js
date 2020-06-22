@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const ExperienceWrapper = styled.div`
+export const ResumeWrapper = styled.div`
   align-items: flex-start;
   display: flex;
   color: #eeeeee;

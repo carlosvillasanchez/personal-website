@@ -7,7 +7,7 @@ import prog from "../data/Programming";
 import hobby from "../data/Interests";
 import starimg from "../assets/images/star.svg";
 import {
-	ExperienceWrapper,
+	ResumeWrapper,
 	WorkWrapper,
 	EdWrapper,
 	EdContent,
@@ -18,12 +18,12 @@ import {
 } from "../styles/workStyle.js";
 import Layout from "../components/layout";
 
-const Experience = () => (
+const Resume = () => (
 	<Layout>
-		<ExperienceWrapper>
+		<ResumeWrapper>
 			<WorkWrapper>
-				<h1>Work Experience</h1>
-				<div className="experience-stepper">
+				<h1>Work Resume</h1>
+				<div className="resume-stepper">
 					{work.map(item => (
 						<div key={item.id} className="step">
 							<div>
@@ -127,8 +127,8 @@ const Experience = () => (
 					))}
 				</EdContent>
 			</EdWrapper>
-		</ExperienceWrapper>
+		</ResumeWrapper>
 	</Layout>
 );
 
-export default Experience;
+export default Resume;

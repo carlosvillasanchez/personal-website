@@ -11,7 +11,7 @@ const Footer = ({ footerClass }) => (
 			>
 				Github
 			</a>{" "}
-			| Template from {" "}
+			| Website design: {" "}
 			<a href="https://github.com/rashmiap/personal-website-react" target="_blank">
 				Rashmi AP
 			</a>
