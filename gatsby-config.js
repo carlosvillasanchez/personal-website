@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Rashmi AP',
-    siteUrl: 'http://rashmiap.me',
+    title: 'Carlos Villa',
+    siteUrl: 'https://carlosvilla.herokuapp.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
