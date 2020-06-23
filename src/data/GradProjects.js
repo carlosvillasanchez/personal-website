@@ -1,5 +1,6 @@
 import diets from '../assets/images/projects/diets.svg'
 import cars from '../assets/images/projects/cars.svg'
+import projectors from '../assets/images/projects/projectors.svg'
 
 export default [
     {
@@ -22,4 +23,14 @@ export default [
       year: "2019/2020",
       techUsed: "Go, React"
     },
+    {
+      id: 3,
+      title: "Design and Implementation of a Management System for Visual Presentations in Classroom Projectors",
+      icon: projectors,
+      description: "This is my Bachelor's Final Project. The project is written in Spanish. In this project, I developed a distributed system to manage the projectors of my home university in a more efficient and comfortable way. The solution involved a web application, the usage of android TVs and a mobile application for professors.",
+      githubPath: null,
+      demoPath: "https://drive.google.com/file/d/1RcXuu2cer0CzFrYaQifCVqS1jen7_cZZ/view",
+      year: "2018",
+      techUsed: "Node.js, React, React Native, Distributed System, API REST, Android, ADB"
+  },
 ]
