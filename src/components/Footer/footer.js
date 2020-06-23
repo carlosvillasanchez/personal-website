@@ -12,8 +12,8 @@ const Footer = ({ footerClass }) => (
 				Github
 			</a>{" "}
 			| Website design: {" "}
-			<a href="https://github.com/carlos villa/personal-website-react" target="_blank">
-				Carlos AP
+			<a href="https://github.com/rashmiap" target="_blank">
+				Rashmia AP
 			</a>
 		</p>
 	</div>
