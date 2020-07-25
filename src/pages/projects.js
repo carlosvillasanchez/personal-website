@@ -29,7 +29,7 @@ const Projects = () => (
         <ProjectsSection>
           {
             hobbyProjects.map(item => (<ProjectBox key={item.id} info={item} />))
-          }
+          } 
         </ProjectsSection>
       </TabPanel>
       <TabPanel>
