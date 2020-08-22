@@ -4,6 +4,36 @@ import upm from "../assets/images/upm.png";
 
 export default [
 	{
+		id: 1,
+		name: "Accenture",
+		designation: "Security Consulting Analyst",
+		dated: "July 2020 - Ongoing",
+		logo: accenture,
+		companyLink: "https://www.accenture.com/",
+		description:
+		`<p>
+			Member of a technology team dedicated to application security. 
+		</p>
+		<p>
+			Currently performing penetration tests in APIs, web and mobile applications. We perfrom grey-box analysis:
+			<ul>
+				<li>
+					Dynamic Application Security Testing (DAST).
+				</li>
+				<li>
+					Static Application Security Testing (SAST).
+				</li>
+				<li>
+					Software Composition Analysis (SCA).
+				</li>
+			</ul>
+		</p>
+		<p>
+			Burp Suite - Fortify - OWASP - Python - Java
+		</p>
+		`
+	},
+	{
 		id: 3,
 		name: "Freelance",
 		designation: "Co-owner and main programer",
@@ -16,7 +46,7 @@ export default [
 			analyzing the documents before to translation. 
 		</p>
 		<p>
-			Python and pyqt5.
+			Python - pyqt5.
 		</p>
 		`
 	},
@@ -34,7 +64,7 @@ export default [
 				For students, teachers, and staff. In addition, we also created brand new applications.			
 			</p>
 			<p>
-				Node.js, Express.js, React, CAS protocol, single sing-on, Docker.
+				Node.js - Express.js - React - CAS protocol - single sing-on - Docker.
 			</p>
 			<p>
 			Main personal contributions:
