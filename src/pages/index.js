@@ -12,7 +12,7 @@ const IndexPage = () => {
     <UserDescription>
       <div>
         <p>
-        Hello there, welcome to my personal web site. I am an application security engineer with great interest in web application vulnerabilities, secure development, and ethical penetration testing. I have recently finished my master's studies in telecommunication engineering with the cybersecurity specialty. Even though I already have a couple of years of experience in scholarships, I am looking forward to working full time in application security-related projects this September.
+        Hello there, welcome to my personal web site. I am an application security engineer with great passion for what I do. Having my passion as my profession helps me on staying always updated to the newest technologies and with great motivation to keep learning. Looking forward to keep growing in my cybersecurity carrer.
         </p>
         <DownloadButton href="https://carlosvillasanchez.github.io/CV/CV_Carlos_Villa_June_2020.pdf"  download title="Resume">View Resume PDF</DownloadButton>
       </div>

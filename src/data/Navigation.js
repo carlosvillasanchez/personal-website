@@ -13,7 +13,7 @@ export default [
   },
   {
     label: 'Blog',
-    path: '/blog',
+    path: '/blogConstruction',
   },
   {
     label: 'Contact',

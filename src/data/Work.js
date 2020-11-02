@@ -29,7 +29,11 @@ export default [
 			</ul>
 		</p>
 		<p>
-			Burp Suite - Fortify - OWASP - Python - Java
+			Security in containers and security in the cloud.
+		</p>
+		<p>
+			<br>
+			Burp Suite - Fortify - OWASP - Python - Java - Dependency-Check - Docker - Kubernetes - Kali Linux
 		</p>
 		`
 	},

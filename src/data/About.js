@@ -15,6 +15,6 @@ export default [
         id: 3,
         title: "Blog",
         description: "I also have my own blog to share more specific content with a higher level of detail. Write-ups of vulnerabilities or CTFs, explanations of any personal research, or any content I find interesting.",
-        path: "/blog"
+        path: "/blogConstruction"
     }
 ];
